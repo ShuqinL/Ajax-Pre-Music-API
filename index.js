@@ -4,7 +4,7 @@
 
             $("#searchButton").click(function(){
                 let searchField = $("#search").val();
-                let url="http://www.omdbapi.com/?s="+searchField+"&apikey=78c2fa05";
+                let url="https://www.omdbapi.com/?s="+searchField+"&apikey=78c2fa05";
 
                 fetch(url)
                .then((res)=>res.json())
