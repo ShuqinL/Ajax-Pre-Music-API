@@ -9,7 +9,7 @@
        console.log(myId);
        
         
-        fetch("http://www.omdbapi.com/?i="+myId+"&apikey=78c2fa05")
+        fetch("https://www.omdbapi.com/?i="+myId+"&apikey=78c2fa05")
         .then((res)=>res.json())
         .then((data)=>{
             let title = data.Title;
